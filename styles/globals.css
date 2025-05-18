@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans text-dark bg-white;
+}
+
+/* Slick carousel custom styling */
+.slick-prev, .slick-next {
+  @apply z-10 w-10 h-10;
+}
+
+.slick-prev:before, .slick-next:before {
+  @apply text-2xl text-white opacity-75;
+}
+
+.slick-dots li button:before {
+  @apply text-white opacity-75;
+}
+
+.slick-dots li.slick-active button:before {
+  @apply text-white opacity-100;
+}
+
+/* Animation classes */
+.hover-scale {
+  @apply transition-transform duration-300;
+}
+
+.hover-scale:hover {
+  @apply scale-105;
+}
+
+.fade-in {
+  @apply opacity-0 transition-opacity duration-500;
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+} 
