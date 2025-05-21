@@ -57,11 +57,6 @@ export default function Footer() {
                   <a className="text-gray-300 hover:text-white transition-colors">Gallery</a>
                 </Link>
               </li>
-              <li>
-                <Link href="#contact" legacyBehavior>
-                  <a className="text-gray-300 hover:text-white transition-colors">Contact</a>
-                </Link>
-              </li>
             </ul>
           </div>
           
@@ -74,14 +69,14 @@ export default function Footer() {
               </p>
               <p className="mb-2 text-gray-300">
                 <strong>Phone:</strong>{" "}
-                <a href="tel:+18762150611" className="hover:text-white transition-colors">
-                  +1 (876) 215-0611
+                <a href="tel:+12039796203" className="hover:text-white transition-colors">
+                  +1 (203) 979-6203
                 </a>
               </p>
               <p className="mb-2 text-gray-300">
                 <strong>Email:</strong>{" "}
-                <a href="mailto:info@thenorwich.com" className="hover:text-white transition-colors">
-                  info@thenorwich.com
+                <a href="mailto:thenorwichportland@gmail.com" className="hover:text-white transition-colors">
+                  thenorwichportland@gmail.com
                 </a>
               </p>
             </address>

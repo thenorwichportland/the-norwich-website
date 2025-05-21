@@ -7,9 +7,7 @@ export default function About() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About The Norwich</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Experience the ultimate luxury getaway in Port Antonio, Jamaica. Our property offers
-            two distinct accommodations, each designed to provide a memorable stay with stunning views
-            and convenient amenities.
+            Fully and newly renovated with modern comforts, this 1-bedroom studio is cozy, bright, and designed for relaxation. Whether you're exploring by day or unwinding at night, you'll feel right at home with everything you need at your fingertips. Bonus perk: Step into the lush backyard filled with fruit trees, herbs, and tea bushes — feel free to pick and enjoy fresh, local flavors!
           </p>
         </div>
 

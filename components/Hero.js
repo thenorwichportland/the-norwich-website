@@ -16,10 +16,10 @@ export default function Hero() {
         <div className="container mx-auto px-4 md:px-6 text-center">
           <div className="max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 fade-in">
-              Welcome to The Norwich
+            Welcome to The Norwich: your private, peaceful escape.
             </h1>
             <p className="text-xl md:text-2xl text-white mb-8 fade-in" style={{ animationDelay: '0.2s' }}>
-              Experience luxury living in the heart of Port Antonio, Jamaica
+              Escape and unwind in this charming studio apartment nestled just minutes from Port Antonio's bustling city center. Perfect location for exploring Portland's breathtaking waterfalls, refreshing rivers, world-famous iconic beaches, and mouthwatering local cuisine. The Norwich is a perfect launchpad for your Jamaican adventure! Welcome to The Norwich - your private, peaceful escape.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 fade-in" style={{ animationDelay: '0.4s' }}>
               <Link href="https://www.airbnb.com/rooms/1404676063993154127" legacyBehavior>

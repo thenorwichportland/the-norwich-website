@@ -5,7 +5,7 @@ import Listings from '../components/Listings';
 import Gallery from '../components/Gallery';
 import VideoTour from '../components/VideoTour';
 import Location from '../components/Location';
-import Contact from '../components/Contact';
+import Reviews from '../components/Reviews';
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <Gallery />
       <VideoTour />
       <Location />
-      <Contact />
+      <Reviews />
     </Layout>
   );
 } 

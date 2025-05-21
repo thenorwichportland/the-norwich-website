@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export default function Header() {
@@ -27,7 +28,10 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" legacyBehavior>
-            <a className="text-2xl font-bold text-primary">The Norwich</a>
+            <a className="flex items-center space-x-3 group">
+              <Image src="/images/logo.jpg" alt="The Norwich Logo" width={48} height={48} className="rounded-full border border-gray-200 shadow-sm group-hover:scale-105 transition-transform duration-200" />
+              <span className="text-2xl font-bold text-primary group-hover:text-secondary transition-colors">The Norwich</span>
+            </a>
           </Link>
 
           {/* Desktop Navigation */}
@@ -37,8 +41,8 @@ export default function Header() {
             <NavLink href="#listings" title="Listings" />
             <NavLink href="#gallery" title="Gallery" />
             <NavLink href="#location" title="Location" />
-            <NavLink href="#contact" title="Contact" />
-            <Link href="https://www.airbnb.com/rooms/1404676063993154127" legacyBehavior>
+            <NavLink href="#reviews" title="Reviews" />
+            <Link href="#listings" legacyBehavior>
               <a className="px-4 py-2 bg-primary text-white rounded-lg hover:bg-opacity-90 transition-all">
                 Book Now
               </a>
@@ -69,8 +73,8 @@ export default function Header() {
               <MobileNavLink href="#listings" title="Listings" onClick={() => setIsMenuOpen(false)} />
               <MobileNavLink href="#gallery" title="Gallery" onClick={() => setIsMenuOpen(false)} />
               <MobileNavLink href="#location" title="Location" onClick={() => setIsMenuOpen(false)} />
-              <MobileNavLink href="#contact" title="Contact" onClick={() => setIsMenuOpen(false)} />
-              <Link href="https://www.airbnb.com/rooms/1404676063993154127" legacyBehavior>
+              <MobileNavLink href="#reviews" title="Reviews" onClick={() => setIsMenuOpen(false)} />
+              <Link href="#listings" legacyBehavior>
                 <a 
                   className="w-full px-4 py-2 bg-primary text-white rounded-lg text-center hover:bg-opacity-90 transition-all"
                   onClick={() => setIsMenuOpen(false)}
