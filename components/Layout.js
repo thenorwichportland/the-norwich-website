@@ -11,20 +11,26 @@ export default function Layout({ children, title = 'The Norwich - Luxury Vacatio
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="The Norwich, Port Antonio, Jamaica, vacation rental, luxury accommodation, Airbnb, Jamaica vacation" />
         
-        {/* Favicon - Multiple sizes for better browser support */}
+        {/* Favicon - Multiple sizes for better browser and Google search support */}
+        <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
         <link rel="icon" type="image/jpeg" href="/images/logo.jpg" />
         <link rel="icon" type="image/jpeg" sizes="32x32" href="/images/logo.jpg" />
         <link rel="icon" type="image/jpeg" sizes="16x16" href="/images/logo.jpg" />
+        <link rel="shortcut icon" type="image/jpeg" href="/favicon.jpg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.jpg" />
         <link rel="apple-touch-icon" href="/images/logo.jpg" />
+        
+        {/* Additional meta for better Google indexing */}
+        <meta name="theme-color" content="#ffffff" />
         
         {/* Open Graph / Social Media Meta Tags */}
         <meta property="og:title" content="The Norwich - Luxury Vacation Rental in Port Antonio, Jamaica" />
         <meta property="og:description" content="Experience the beauty of Port Antonio, Jamaica at The Norwich, a stunning vacation rental with two luxurious accommodations. Book your paradise getaway today!" />
-        <meta property="og:image" content="/images/logo.jpg" />
+        <meta property="og:image" content="https://thenorwichportland.com/images/logo.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="The Norwich Logo" />
-        <meta property="og:url" content="https://thenorwich.com" />
+        <meta property="og:url" content="https://thenorwichportland.com" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="The Norwich" />
         
@@ -32,7 +38,7 @@ export default function Layout({ children, title = 'The Norwich - Luxury Vacatio
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="The Norwich - Luxury Vacation Rental in Port Antonio, Jamaica" />
         <meta name="twitter:description" content="Experience the beauty of Port Antonio, Jamaica at The Norwich, a stunning vacation rental with two luxurious accommodations. Book your paradise getaway today!" />
-        <meta name="twitter:image" content="/images/logo.jpg" />
+        <meta name="twitter:image" content="https://thenorwichportland.com/images/logo.jpg" />
         <meta name="twitter:image:alt" content="The Norwich Logo" />
       </Head>
       
